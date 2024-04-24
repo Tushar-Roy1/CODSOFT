@@ -288,7 +288,14 @@ button:hover{
         cursor: pointer;
     }
 }
-@media screen and (max-width:550px){
+@media screen and (max-width:500px){
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
    .mainText h1{
     font-size: 35px;
    }
