@@ -288,7 +288,7 @@ button:hover{
         cursor: pointer;
     }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:550px){
     .main{
         display: flex;
         justify-content: center;
