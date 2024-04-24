@@ -302,6 +302,7 @@ button:hover{
     width: 80%;
    }
   .contact{
+    margin-left: 50px;
     width: 75%;
   }
 }
