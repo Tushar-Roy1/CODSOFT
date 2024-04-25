@@ -56,4 +56,18 @@ const typed= new Typed('.multiple-text',{
     backSpeed:70,
     backDelay:1000,
     loop:true
-})
+});
+
+
+
+function SendMail(){
+    var params ={
+        from_name :document.getElementById("pass").value,
+        email_id : document.getElementById("email").value,
+        message : document.getElementById("msg").value
+    }
+
+    emailjs.send("service_bgz1zpm","template_fwar3te",params).then(function(res){
+        alert("succesfully Sent!!!"+res.status);
+    })
+}
